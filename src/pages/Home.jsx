@@ -4,7 +4,7 @@ import { cronicas } from '../data/cronicas'
 import { galeria } from '../data/galeria'
 import VideoCard from '../components/VideoCard'
 import CronicaCard from '../components/CronicaCard'
-import heroImg from '../../img/img10.jpeg'
+import treeImg from '../../img/img07.jpeg'
 import { useState } from 'react'
 
 function VideoModal({ video, onClose }) {
@@ -40,8 +40,8 @@ export default function Home() {
       {/* HERO */}
       <section className="relative min-h-screen flex items-end pb-20 overflow-hidden">
         <img
-          src={heroImg}
-          alt="Povo Guarani-Mbya"
+          src={treeImg}
+          alt="Povo Krikati"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-terra-900 via-terra-900/60 to-terra-900/20" />
@@ -51,13 +51,13 @@ export default function Home() {
         <div className="absolute right-0 top-0 bottom-0 w-2 geo-line opacity-60" />
 
         <div className="relative max-w-6xl mx-auto px-6 w-full animate-fade-in">
-          <span className="section-label text-terra-200 mb-4">Povo da Mata Atlântica</span>
+         {/* <span className="section-label text-terra-200 mb-4">Corrida de tora</span>*/}
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-terra-50 leading-none mb-6">
-            Guarani<br />
-            <span className="text-urucum">Mbya</span>
+           Corrida de tora <br />
+            <span className="text-urucum"> dos indígenas Krikati</span>
           </h1>
           <p className="font-serif text-xl md:text-2xl text-terra-200 max-w-2xl leading-relaxed mb-8">
-            História, cultura e cotidiano de um povo que carrega a floresta dentro de si.
+            Sentimentos, luto e resistência.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/cronicas" className="btn-primary">Ler Crônicas</Link>
@@ -81,10 +81,10 @@ export default function Home() {
           <h2 className="section-title mb-6">Memória que resiste</h2>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
           <p className="font-serif text-lg text-terra-100 leading-relaxed mb-6">
-            Os Guarani-Mbya habitam a Mata Atlântica há milênios. São cerca de 27 mil pessoas no Brasil, distribuídas em aldeias do Rio Grande do Sul ao Espírito Santo — muitas delas cercadas por cidades que não sabem que as florestas que restam existem por causa deles.
+            Os Krikati habitam a Mata Atlântica há milênios. São cerca de 27 mil pessoas no Brasil, distribuídas em aldeias do Rio Grande do Sul ao Espírito Santo — muitas delas cercadas por cidades que não sabem que as florestas que restam existem por causa deles.
           </p>
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
-            Este projeto reúne vídeos, crônicas e fotografias produzidos em diálogo com as comunidades Guarani-Mbya de São Paulo. É um convite a conhecer um povo que não quer ser lembrado como passado — porque está muito presente.
+            Este projeto reúne vídeos, crônicas e fotografias produzidos em diálogo com as comunidades Krikati de São Paulo. É um convite a conhecer um povo que não quer ser lembrado como passado — porque está muito presente.
           </p>
         </div>
       </section>

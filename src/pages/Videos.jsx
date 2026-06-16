@@ -42,7 +42,7 @@ export default function Videos() {
           <span className="section-label">Documentários</span>
           <h1 className="section-title text-4xl md:text-5xl">Vídeos</h1>
           <p className="font-serif text-terra-300 mt-3 text-lg max-w-xl">
-            Documentários, registros e depoimentos sobre a cultura e o cotidiano Guarani-Mbya.
+            Documentários, registros e depoimentos sobre a cultura e o cotidiano Krikati.
           </p>
         </div>
       </div>

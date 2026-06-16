@@ -12,12 +12,12 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-1.5 h-10 bg-urucum block" />
               <div>
-                <p className="font-display text-xl text-terra-50">Guarani-Mbya</p>
-                <p className="text-terra-400 text-xs tracking-widest uppercase">Cultura e Memória</p>
+                <p className="font-display text-xl text-terra-50">Corrida de tora</p>
+                <p className="text-terra-400 text-xs tracking-widest uppercase">Sentimentos, luto e resistência.</p>
               </div>
             </div>
             <p className="font-serif text-terra-300 text-sm leading-relaxed">
-              Um projeto de documentação cultural sobre o povo Guarani-Mbya da Mata Atlântica — sua história, sua língua e seu modo de existir.
+              Um projeto de documentação cultural sobre os indígenas Krikati — sua tradição e resistência.
             </p>
           </div>
 
@@ -39,18 +39,18 @@ export default function Footer() {
           <div>
             <p className="section-label mb-4">Sobre o Projeto</p>
             <p className="font-serif text-terra-300 text-sm leading-relaxed">
-              Trabalho de Conclusão de Curso produzido com respeito à soberania cultural Guarani-Mbya. Todo conteúdo foi construído em diálogo com as comunidades.
+              Trabalho de Conclusão de Curso produzido com respeito à soberania cultural Krikati. Todo conteúdo foi construído em diálogo com as comunidades.
             </p>
           </div>
         </div>
 
-        <div className="border-t border-terra-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-2">
+        <div className="border-t border-terra-700 pt-6 flex flex-col  justify-between items-center gap-2">
           <p className="text-terra-400 text-xs">
-            © {new Date().getFullYear()} Projeto Cultural Guarani-Mbya. Todos os direitos reservados.
+            © {new Date().getFullYear()} Projeto TCC Paulo. Todos os direitos reservados. Desenvolvido por Higor Costa
           </p>
-          <p className="text-terra-500 text-xs italic font-serif">
+          {/*<p className="text-terra-500 text-xs italic font-serif">
             "Nhamboaxy pa nde reko" — Que nossa cultura se fortaleça
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

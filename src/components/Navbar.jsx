@@ -35,8 +35,9 @@ export default function Navbar() {
         <Link to="/" className="group flex items-center gap-3">
           <span className="w-2 h-8 bg-urucum block" />
           <span className="font-display text-lg text-terra-50 leading-tight">
-            Guarani<br />
-            <span className="text-terra-200 text-sm font-normal tracking-widest">MBYA</span>
+            Corrida de tora
+            <br />
+            <span className="text-terra-200 text-sm font-normal tracking-widest">dos indígenas Krikati</span>
           </span>
         </Link>
 
