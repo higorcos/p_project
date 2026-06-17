@@ -17,7 +17,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="font-serif text-terra-300 text-sm leading-relaxed">
-              Um projeto de documentação cultural sobre os indígenas Krikati — sua tradição e resistência.
+              Um registro sobre memória, identidade e resistência cultural.
             </p>
           </div>
 
@@ -38,9 +38,9 @@ export default function Footer() {
 
           {/* Sobre */}
           <div>
-            <p className="section-label mb-4">Sobre o Projeto</p>
+            <p className="section-label mb-4">Sobre o LongForm</p>
             <p className="font-serif text-terra-300 text-sm leading-relaxed">
-              Trabalho de Conclusão de Curso produzido com respeito à soberania cultural Krikati. Todo conteúdo foi construído em diálogo com as comunidades.
+              Trabalho de sobre a corrida de Tora do povo Krikati, produzido a partir da escuta, observação e registro de suas memórias e tradições da comunidade.
             </p>
           </div>
         </div>
