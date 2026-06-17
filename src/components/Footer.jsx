@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="w-1.5 h-10 bg-urucum block" />
               <div>
                 <p className="font-display text-xl text-terra-50">Corrida de tora</p>
-                <p className="text-terra-400 text-xs tracking-widest uppercase">Sentimentos, luto e resistência.</p>
+                <p className="text-terra-400 text-xs tracking-widest uppercase">Passado, presente e futuro.</p>
               </div>
             </div>
             <p className="font-serif text-terra-300 text-sm leading-relaxed">
@@ -46,12 +46,12 @@ export default function Footer() {
 
         <div className="border-t border-terra-700 pt-6 flex flex-col  justify-between items-center gap-2">
           <p className="text-terra-400 text-xs">
-           {/*Todos os direitos reservados. © {new Date().getFullYear()} Trabalho de Conclusão de Curso de Paulo Ferraz. Desenvolvido por Higor Costa */}
-             © {new Date().getFullYear()} Projeto TCC Paulo. Todos os direitos reservados. Desenvolvido por Higor Costa
+           Trabalho de Conclusão de Curso de Paulo Ferraz. 
+        
           </p>
-          {/*<p className="text-terra-500 text-xs italic font-serif">
-            "Nhamboaxy pa nde reko" — Que nossa cultura se fortaleça
-          </p> */}
+          <p className="text-terra-500 text-xs italic font-serif">
+            Todos os direitos reservados. © {new Date().getFullYear()}.Desenvolvido por Higor Costa 
+          </p> 
         </div>
       </div>
     </footer>

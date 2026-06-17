@@ -52,12 +52,15 @@ export default function Home() {
 
         <div className="relative max-w-6xl mx-auto px-6 w-full animate-fade-in">
          {/* <span className="section-label text-terra-200 mb-4">Corrida de tora</span>*/}
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-terra-50 leading-none mb-6">
-           Corrida de tora <br />
-            <span className="text-urucum"> dos indígenas Krikati</span>
+          <h1 className="font-display text-5xl lg:text-1xl text-terra-50 leading-none mb-6">
+            <br />
+            {/*<span className="text-urucum"> Corrida de tora dos povos indígenas Krikati da aldeia São José de Montes Altos-MA</span>*/}
           </h1>
+          <p className="font-display text-3xl lg:text-7xl text-terra-50 leading-none mb-6">
+            Corrida de tora dos povos indígenas Krikati da aldeia São José de Montes Altos-MA
+          </p>
           <p className="font-serif text-xl md:text-2xl text-terra-200 max-w-2xl leading-relaxed mb-8">
-            Sentimentos, luto e resistência.
+            Passado, presente e futuro.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/cronicas" className="btn-primary">Ler Crônicas</Link>
@@ -105,7 +108,7 @@ export default function Home() {
               Ver todas
             </Link>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-4 gap-6">
             {cronicas.map(c => (
               <CronicaCard key={c.id} cronica={c} />
             ))}

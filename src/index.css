@@ -53,7 +53,8 @@
   }
 
   .prose-indigena p {
-    @apply font-serif text-lg text-terra-100 leading-relaxed mb-6;
+    @apply font-serif text-lg text-terra-100 leading-relaxed text-justify mb-6;
+
   }
 
   .prose-indigena h2 {
