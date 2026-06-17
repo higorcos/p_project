@@ -25,7 +25,7 @@ export default function Footer() {
           <div>
             <p className="section-label mb-4">Navegar</p>
             <ul className="space-y-2">
-              {[['/', 'Início'], ['/videos', 'Vídeos'], ['/cronicas', 'Crônicas'], ['/galeria', 'Galeria']].map(([to, label]) => (
+              {[['/', 'Início'], ['/videos', 'Vídeos'], ['/longform', 'Longform'], ['/galeria', 'Galeria']].map(([to, label]) => (
                 <li key={to}>
                   <Link to={to} className="text-terra-300 hover:text-terra-50 text-sm transition-colors">
                     {label}

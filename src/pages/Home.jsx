@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { videos } from '../data/videos'
-import { cronicas } from '../data/cronicas'
+import { longform } from '../data/longform'
 import { galeria } from '../data/galeria'
 import VideoCard from '../components/VideoCard'
 import CronicaCard from '../components/CronicaCard'
@@ -57,13 +57,13 @@ export default function Home() {
             <span className="text-urucum"> Paulo Ferraz</span>*/}
           </h1>
           <p className="font-display text-3xl lg:text-7xl text-terra-50 leading-none mb-6">
-            Corrida de tora dos povos indígenas Krikati da aldeia São José de Montes Altos-MA
+            Não é só uma brincadeira ou competição
           </p>
           <p className="font-serif text-xl md:text-2xl text-terra-200 max-w-2xl leading-relaxed mb-8">
-            Passado, presente e futuro
+            União e resistência na tradição da Corrida de Tora dos povos indígenas Krikati no Maranhão
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/cronicas" className="btn-primary">Ler Crônicas</Link>
+            <Link to="/longform" className="btn-primary">Ler Longform</Link>
             <Link to="/galeria"  className="btn-ghost">Ver Galeria</Link>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function Home() {
             O povo indígena Krikatí pertence ao grupo Timbira (tronco Macro-Jê) e habita a Terra Indígena Krikati, localizada no sudoeste do Maranhão. Com uma população de cerca de 1.000 pessoas, eles mantêm viva a língua Gê, a tradicional organização em aldeias circulares e rituais marcantes como a corrida de tora, simbolizando séculos de resistência cultural e territorial na região de transição entre o Cerrado e a Amazônia.
           </p>
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
-            Este projeto reúne vídeos, crônicas e fotografias produzidos em diálogo com as comunidades Krikati no sudoeste do Maranhão. É um convite a conhecer um povo que não quer ser lembrado como passado — porque está muito presente.
+            Este projeto reúne vídeos, longform e fotografias produzidos em diálogo com as comunidades Krikati no sudoeste do Maranhão. É um convite a conhecer um povo que não quer ser lembrado como passado — porque está muito presente.
           </p>
         </div>
       </section>
@@ -96,20 +96,20 @@ export default function Home() {
       {/* Faixa decorativa */}
       <div className="h-2 geo-line" />
 
-      {/* CRÔNICAS */}
+      {/* longformS */}
       <section className="py-20 bg-terra-700">
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex items-end justify-between mb-10">
             <div>
           
-              <h2 className="section-title">Crônicas Recentes</h2>
+              <h2 className="section-title">Longform Recentes</h2>
             </div>
-            <Link to="/cronicas" className="btn-ghost text-sm hidden md:inline-block">
+            <Link to="/longform" className="btn-ghost text-sm hidden md:inline-block">
               Ver todas
             </Link>
           </div>
           <div className="grid md:grid-cols-4 gap-6">
-            {cronicas.map(c => (
+            {longform.map(c => (
               <CronicaCard key={c.id} cronica={c} />
             ))}
           </div>

@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { cronicas } from '../data/cronicas'
+import { longform } from '../data/longform'
 
 function Section({ section }) {
   if (section.type === 'texto') {
@@ -66,20 +66,20 @@ function Section({ section }) {
 
 export default function CronicaDetalhe() {
   const { slug } = useParams()
-  const cronica = cronicas.find(c => c.slug === slug)
+  const cronica = longform.find(c => c.slug === slug)
 
   if (!cronica) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center gap-4">
-        <p className="font-display text-3xl text-terra-300">Crônica não encontrada</p>
-        <Link to="/cronicas" className="btn-primary">Voltar às crônicas</Link>
+        <p className="font-display text-3xl text-terra-300">longform não encontrada</p>
+        <Link to="/longform" className="btn-primary">Voltar às longform</Link>
       </div>
     )
   }
 
   return (
     <>
-      {/* Hero da crônica */}
+      {/* Hero da longform */}
       <div className="relative h-[60vh] md:h-[70vh] overflow-hidden">
         <img
           src={cronica.capa}
@@ -89,7 +89,7 @@ export default function CronicaDetalhe() {
         <div className="absolute inset-0 bg-gradient-to-t from-terra-900 via-terra-900/40 to-transparent" />
         <div className="absolute inset-x-0 bottom-0 max-w-4xl mx-auto px-6 pb-12">
           <span className="bg-urucum text-white text-xs px-3 py-1 uppercase tracking-widest font-sans">
-            Crônica
+            longform
           </span>
           <h1 className="font-display text-3xl md:text-5xl text-terra-50 mt-4 mb-3 leading-tight">
             {cronica.titulo}
@@ -117,11 +117,11 @@ export default function CronicaDetalhe() {
 
           {/* Rodapé do artigo */}
           <div className="mt-16 pt-8 border-t border-terra-600">
-            <Link to="/cronicas" className="flex items-center gap-2 text-terra-400 hover:text-urucum transition-colors text-sm font-sans uppercase tracking-widest">
+            <Link to="/longform" className="flex items-center gap-2 text-terra-400 hover:text-urucum transition-colors text-sm font-sans uppercase tracking-widest">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
               </svg>
-              Todas as crônicas
+              Todas as longform
             </Link>
           </div>
         </div>

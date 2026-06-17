@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function CronicaCard({ cronica, featured = false }) {
   return (
-    <Link to={`/cronicas/${cronica.slug}`} className="group block card overflow-hidden">
+    <Link to={`/longform/${cronica.slug}`} className="group block card overflow-hidden">
       {/* Imagem */}
       <div className={`relative overflow-hidden bg-terra-900 ${featured ? 'aspect-[16/7]' : 'aspect-[4/3]'}`}>
         <img
@@ -12,7 +12,7 @@ export default function CronicaCard({ cronica, featured = false }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-terra-900/80 via-transparent to-transparent" />
         <span className="absolute top-4 left-4 bg-urucum text-white text-xs px-3 py-1 uppercase tracking-widest font-sans">
-          Crônica
+          longform
         </span>
       </div>
 

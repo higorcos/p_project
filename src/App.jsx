@@ -24,8 +24,8 @@ export default function App() {
           <Routes>
             <Route path="/"                   element={<Home />} />
             <Route path="/videos"             element={<Videos />} />
-            <Route path="/cronicas"           element={<Cronicas />} />
-            <Route path="/cronicas/:slug"     element={<CronicaDetalhe />} />
+            <Route path="/longform"           element={<Cronicas />} />
+            <Route path="/longform/:slug"     element={<CronicaDetalhe />} />
             <Route path="/galeria"            element={<Galeria />} />
           </Routes>
         </main>

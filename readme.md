@@ -1,6 +1,7 @@
 # Projeto Cultural Indígena — TCC
 
-Site estático e moderno em React para documentação de um grupo indígena, com vídeos, crônicas, fotografias e textos sobre história, cultura e cotidiano.
+Site estático e moderno em React para documentação de um grupo indígena, com vídeos, 
+, fotografias e textos sobre história, cultura e cotidiano.
 
 ---
 
@@ -30,8 +31,8 @@ Bege escuro  #D4A843  ████
 ```
 /                   → Página inicial (hero + destaques)
 /videos             → Grid de vídeos com embed YouTube
-/cronicas           → Lista de crônicas (card com capa, resumo, data)
-/cronicas/:slug     → Crônica individual (longform: texto + fotos + vídeos)
+/longform           → Lista de longform (card com capa, resumo, data)
+/longform/:slug     → Crônica individual (longform: texto + fotos + vídeos)
 /galeria            → Masonry grid com lightbox
 ```
 
@@ -42,7 +43,7 @@ Bege escuro  #D4A843  ████
 - **React + Vite**
 - **React Router**
 - **CSS Modules** ou **Tailwind CSS**
-- **Sem backend** — dados em arquivos locais (`videos.js`, `cronicas.js`, `galeria.js`)
+- **Sem backend** — dados em arquivos locais (`videos.js`, `longform.js`, `galeria.js`)
 
 ---
 
@@ -52,7 +53,7 @@ Bege escuro  #D4A843  ████
 src/
 ├── components/        # Componentes reutilizáveis
 ├── pages/             # Páginas (Home, Videos, Cronicas, Galeria)
-├── data/              # videos.js · cronicas.js · galeria.js
+├── data/              # videos.js · longform.js · galeria.js
 ├── assets/            # Imagens, ícones, fontes
 └── styles/            # CSS global e variáveis
 ```
@@ -81,7 +82,7 @@ img/
 ```
 assets/images/
 ├── hero-placeholder.svg              # Banner 1200×600 — fundo terroso + grafismo
-├── cronica-placeholder.svg           # Card 800×500 — capa de crônica
+├── cronica-placeholder.svg           # Card 800×500 — capa de longform
 ├── galeria-placeholder.svg           # Masonry 600×600 — preview de galeria
 └── video-thumbnail-placeholder.svg   # Thumb 640×360 — fundo genipapo + botão play
 ```
@@ -112,7 +113,7 @@ assets/images/
 
 > Desenvolva um site estático moderno em React para um projeto cultural sobre um grupo indígena.
 >
-> Criar uma plataforma de conteúdo longform com vídeos, crônicas, fotografias e textos sobre a história, cultura e cotidiano de um povo indígena. Visual contemporâneo e elegante, inspirado na cultura indígena brasileira sem parecer estereotipado. Misturar tradição e tecnologia. Design editorial semelhante a grandes reportagens multimídia.
+> Criar uma plataforma de conteúdo longform com vídeos, longform, fotografias e textos sobre a história, cultura e cotidiano de um povo indígena. Visual contemporâneo e elegante, inspirado na cultura indígena brasileira sem parecer estereotipado. Misturar tradição e tecnologia. Design editorial semelhante a grandes reportagens multimídia.
 >
 > Paleta de cores: tons terrosos predominantes, vermelho indígena (urucum), cor inspirada no genipapo (roxo-azulado escuro), bege/areia/marrom claro para fundos.
 >

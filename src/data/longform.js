@@ -7,7 +7,7 @@ import img06 from '../../img/img06.jpeg'
 import img07 from '../../img/img07.jpeg'
 import img08 from '../../img/img08.jpeg'
 
-export const cronicas = [
+export const longform = [
   {
     id: 1,
     slug: 'capitulo-1-origens-detalhadas',
