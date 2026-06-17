@@ -46,7 +46,8 @@ export default function Footer() {
 
         <div className="border-t border-terra-700 pt-6 flex flex-col  justify-between items-center gap-2">
           <p className="text-terra-400 text-xs">
-            © {new Date().getFullYear()} Projeto TCC Paulo. Todos os direitos reservados. Desenvolvido por Higor Costa
+           {/*Todos os direitos reservados. © {new Date().getFullYear()} Trabalho de Conclusão de Curso de Paulo Ferraz. Desenvolvido por Higor Costa */}
+             © {new Date().getFullYear()} Projeto TCC Paulo. Todos os direitos reservados. Desenvolvido por Higor Costa
           </p>
           {/*<p className="text-terra-500 text-xs italic font-serif">
             "Nhamboaxy pa nde reko" — Que nossa cultura se fortaleça

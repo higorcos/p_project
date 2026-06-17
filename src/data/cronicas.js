@@ -10,12 +10,12 @@ import img08 from '../../img/img08.jpeg'
 export const cronicas = [
   {
     id: 1,
-    slug: 'a-lingua-que-o-vento-carrega',
-    titulo: 'A Língua que o Vento Carrega',
-    autor: 'Paulo',
-    data: '15 de março de 2024',
+    slug: 'capitulo-1-origens-detalhadas',
+    titulo: 'Capítulo 1- Origens detalhadas',
+    autor: 'Paulo Ferraz',
+    data: '17 de junho de 2026',
     capa: img01,
-    resumo: 'O nhee guarani não é apenas um idioma — é um fio invisível que costura o mundo dos vivos ao dos ancestrais. Uma jornada pela língua que resiste ao silêncio.',
+    resumo: 'resumo',
     sections: [
       {
         type: 'texto',
@@ -56,12 +56,12 @@ O desafio, dizem eles, não é só ensinar a língua. É criar mundos onde ela f
   },
   {
     id: 2,
-    slug: 'nhande-reko-o-modo-guarani-de-existir',
-    titulo: 'Nhande Rekó — O Modo Guarani de Existir',
-    autor: 'Paulo',
-    data: '22 de fevereiro de 2024',
+    slug: 'capitulo-2-o-ritual-e-seus-simbolos',
+    titulo: 'Capítulo 2 – O ritual e seus símbolos',
+    autor: 'Paulo Ferraz',
+    data: '17 de junho de 2026',
     capa: img04,
-    resumo: 'Há uma filosofia de vida nos mínimos gestos de quem acorda antes do sol, ora, planta e cuida. O nhande rekó Guarani é uma resposta ao mundo que o cercou.',
+    resumo: 'resumo',
     sections: [
       {
         type: 'texto',
@@ -99,12 +99,52 @@ Essa relação com o tempo e com a terra é o que os Guarani chamam de tekó por
   },
   {
     id: 3,
-    slug: 'da-floresta-a-cidade-caminhos-guarani',
-    titulo: 'Da Floresta à Cidade — Caminhos Guarani',
-    autor: 'Paulo',
-    data: '10 de janeiro de 2024',
+    slug: 'capitulo-3-vivencia-da-corrida-de-tora',
+    titulo: 'Capítulo 3 – Vivência da corrida de tora',
+    autor: 'Paulo Ferraz',
+    data: '17 de junho de 2026',
     capa: img07,
-    resumo: 'Os Guarani sempre foram um povo em movimento. O oguatá — o caminhar — é parte de sua identidade. Mas como se caminha quando o caminho virou concreto?',
+    resumo: 'resumo',
+    sections: [
+      {
+        type: 'texto',
+        content: `Os Guarani são, por essência, um povo caminhante. O oguatá — o ato de caminhar — não é apenas deslocamento físico. É uma prática espiritual, uma busca pela Yvy Marãe'y, a Terra Sem Males prometida pelos ancestrais.
+
+Durante séculos, essa caminhada os levou por toda a costa atlântica do Brasil, pela Argentina, pelo Paraguai, pelo Uruguai. Cruzavam biomas inteiros seguindo sonhos e visões dos seus karaí — os líderes espirituais.
+
+Hoje, o asfalto corta o caminho.`,
+      },
+      {
+        type: 'imagem',
+        src: img08,
+        legenda: 'Jovem com objeto para cerimônia.',
+      },
+      {
+        type: 'texto',
+        content: `Na aldeia Krukutu, também no sul de São Paulo, o professor Ariel Kuaray faz esse caminhar todos os dias. De casa até a escola da aldeia são quinze minutos a pé pela mata. Até a estação de metrô mais próxima, quase uma hora de ônibus.
+
+"A gente aprende a viver nos dois mundos", ele diz. "Mas é cansativo. É como falar duas línguas o tempo todo, mas não só com a boca — com o corpo inteiro, com a alma."`,
+      },
+      {
+        type: 'citacao',
+        content: 'Meu avô caminhou do Paraguai até o litoral de São Paulo a pé. Levou três anos. Eu caminho da aldeia até o metrô e já me sinto no outro mundo.',
+        autor: 'Autoria Desconhecida',
+      },
+      {
+        type: 'imagem',
+        src: img01,
+        legenda: 'Indígena participando da cerimônia.',
+      },
+    ],
+  },
+    {
+    id: 4,
+    slug: 'capitulo-3-vivencia-da-corrida-de-tora',
+    titulo: 'Capítulo 3 – Vivência da corrida de tora',
+    autor: 'Paulo Ferraz',
+    data: '17 de junho de 2026',
+    capa: img09,
+    resumo: 'resumo',
     sections: [
       {
         type: 'texto',
