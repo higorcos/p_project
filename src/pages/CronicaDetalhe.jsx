@@ -46,6 +46,54 @@ function Section({ section }) {
     )
   }
 
+  if (section.type === 'imagensParalelas') {
+    const cols = section.fotos.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'
+    return (
+      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
+        <div className={`grid grid-cols-1 ${cols} gap-2`}>
+          {section.fotos.map((foto, i) => (
+            <div key={i} className="aspect-[4/3] overflow-hidden">
+              <img
+                src={foto.src}
+                alt={section.legenda || ''}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </div>
+        {section.legenda && (
+          <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
+            {section.legenda}
+          </figcaption>
+        )}
+      </figure>
+    )
+  }
+
+  if (section.type === 'imagensVerticaisParalelas') {
+    const cols = section.fotos.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'
+    return (
+      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
+        <div className={`grid grid-cols-1 ${cols} gap-2`}>
+          {section.fotos.map((foto, i) => (
+            <div key={i} className="aspect-[3/4] overflow-hidden">
+              <img
+                src={foto.src}
+                alt={section.legenda || ''}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </div>
+        {section.legenda && (
+          <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
+            {section.legenda}
+          </figcaption>
+        )}
+      </figure>
+    )
+  }
+
   if (section.type === 'citacao') {
     return (
       <blockquote className="my-12 border-l-4 border-urucum pl-6">

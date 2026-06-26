@@ -38,33 +38,33 @@ export const longform = [
       {
         type: 'texto',
         content: `Quando os Krikati falam sobre a origem da Corrida de Tora, não recorrem a datas ou documentos escritos. Ela está preservada na memória oral do povo, nos ensinamentos transmitidos pelos mais velhos e nos conhecimentos que atravessaram gerações. Não existe uma data exata para o surgimento dessa tradição.`,
-      },{
+      }, {
         type: 'texto',
         content: `Os Krikati pertencem ao conjunto dos povos Timbira, grupo indígena que habita diferentes regiões do Maranhão e do Tocantins. Apesar das particularidades de cada comunidade, diversas práticas culturais são compartilhadas, entre elas a Corrida de Tora, considerada uma das expressões mais importantes dessa tradição.`,
       },
-       {
-        type: 'imagem',
-        src: cap1_img1,
-        legenda: 'cap1_img1',
-      },   
-        {
-        type: 'imagem',
-        src: cap1_img2,
-        legenda: 'cap1_img2',
-      },     
+
+      {
+        type: 'imagensVerticaisParalelas',
+        fotos: [
+          { src: cap1_img1},
+          { src: cap1_img2 },
+        ],
+        legenda: 'cap1_img1 e cap1_img2',
+      },
+
       {
         type: 'texto',
         content: `Como se confirma no e-book Cultura viva timbira: nossas corridas de tora elaborado por Maria Elisa Ladeira e Daniela Leme da Fonseca, a prática está presente há muitas gerações e aparece associada a diferentes rituais, momentos de celebração coletiva e processos de formação social nos contextos das comunidades indígenas.`,
-      },{
+      }, {
         type: 'texto',
         content: `Os pesquisadores destacam que a corrida não pode ser compreendida apenas como uma atividade física, ela está ligada à história dos povos Timbira, à organização dos grupos sociais e à preservação dos conhecimentos ancestrais. Entre os Krikati, essa relação continua evidente, a corrida permanece integrada aos rituais tradicionais e continua ocupando um espaço central na construção da identidade coletiva.`,
-      },{
+      }, {
         type: 'texto',
         content: `Ao contrário do que ocorre em muitas tradições, a história da Corrida de Tora foi preservada principalmente pela oralidade. São os que guardam as lembranças dos antepassados e compartilham esses conhecimentos com as novas gerações. Os ensinamentos são transmitidos durante os rituais, nas conversas cotidianas e na convivência entre jovens e os mais velhos.`,
-      },{
+      }, {
         type: 'texto',
         content: `Um dos principais guardiões dessa memória é o ancião Milton Carvalho Bandeira Krikati, conhecido pelo nome indígena Hõocrow e coordenador cultural da Aldeia São José, reserva natural de Montes Altos-Maranhão. Segundo ele, essa prática sempre esteve presente na vida do povo.`,
-      },{
+      }, {
         type: 'citacao',
         content: `A gente se identifica como corrida, então Corrida de Tora é a nossa origem, a nossa identidade que os mais velhos deixaram para nós`,
         autor: 'Ancião Milton Carvalho Bandeira Krikati',
@@ -74,15 +74,15 @@ export const longform = [
         src: cap1_img3,
         legenda: 'cap1_img3',
       },
-      
+
       {
         type: 'texto',
         content: `A corrida ultrapassa a dimensão de uma simples prática cultural, ela representa uma herança ancestral recebida dos antepassados e preservada ao longo das gerações. Para Milton, a tradição está diretamente ligada à forma como os Krikati se reconhecem enquanto povo.`,
-      },{
+      }, {
         type: 'texto',
         content: `Ao recordar o que ouviu dos antigos e o que viveu desde a infância, Milton explica que a corrida fazia parte do cotidiano da aldeia e estava profundamente ligada aos rituais tradicionais. Os conhecimentos eram transmitidos oralmente, durante as cantorias, nas reuniões comunitárias e na convivência entre gerações.`,
       },
-        {
+      {
         type: 'imagemVertical',
         src: cap1_img4,
         legenda: 'cap1_img4',
@@ -90,14 +90,14 @@ export const longform = [
       {
         type: 'texto',
         content: `Segundo suas lembranças, as crianças eram inseridas muito cedo nesse universo. Os mais velhos preparavam pequenas toras para que aprendessem a correr e compreendessem, desde os seus primeiros anos de idade, o significado da tradição.`,
-      },{
+      }, {
         type: 'texto',
         content: `“Os cortadores faziam toras pequenininhas para nós, crianças, corrermos, para aprendermos a pegar o jeito e o tamanho. Hoje não se faz mais isso, não corta mais para as crianças correrem, somente os homens, os mais velhos, podem correr agora. Isso foi uma modificação”, compara Milton.`,
-      },{
+      }, {
         type: 'texto',
         content: `A memória oral também revela que a corrida nunca foi entendida apenas como uma atividade física, sendo mais associada à formação das pessoas, ao fortalecimento dos vínculos comunitários e à transmissão dos valores culturais do povo Krikati.`,
       },
-         {
+      {
         type: 'imagemVertical',
         src: cap1_img5,
         legenda: 'cap1_img5',
@@ -105,40 +105,39 @@ export const longform = [
       {
         type: 'texto',
         content: `Essa visão aparece igualmente na fala de Wagner Crowahreh Krikati, antigo cacique da Aldeia São José e uma das lideranças que acompanharam os rituais tradicionais ao longo de anos. Para ele, cada corrida carrega a memória dos ancestrais e reforça o pertencimento dos participantes à sua cultura. “Manter essa tradição viva é através da prática, da oralidade, da cantoria, da dança e da pintura corporal”, pontua.`,
-      },{
+      }, {
         type: 'texto',
         content: `O antigo líder destaca que a cultura indígena não se resume apenas aos rituais visíveis durante a corrida, mas está presente em diferentes aspectos da vida cotidiana da comunidade. Segundo Wagner, os corredores carregam, além de uma tora de madeira, histórias, ensinamentos e responsabilidades herdadas das gerações anteriores.`,
       },
-         {
+      {
         type: 'imagemVertical',
         src: cap1_img6,
         legenda: 'cap1_img6',
       },
-      { 
+      {
         type: 'texto',
         content: `A própria organização da corrida expressa essa herança ancestral. Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como Partido de Cima e Partido de Baixo. Essa divisão pode ser comparada aos sobrenomes de famílias entre os não indígenas, pois ajuda a identificar a qual grupo cada pessoa pertence dentro da sociedade tradicional. Esses partidos organizam a participação dos indivíduos em diversos rituais, incluindo a Corrida de Tora.`,
       },
-      
+
       {
         type: 'texto',
         content: `Cada pessoa pertence a um desses dois partidos de acordo com regras culturais relacionadas ao nome tradicional que recebe dos pais. Esse nome define diversas responsabilidades e formas de participação na vida da aldeia. A divisão influencia aspectos como a participação nos rituais, a organização das corridas, as pinturas corporais, os tipos de passagem, as cantorias, as cerimônias e a formação das equipes durante a Corrida de Tora.`,
       },
-      
-       {
-        type: 'imagemVertical',
-        src: cap1_img7,
-        legenda: 'cap1_img7',
+
+      {
+      type: 'imagensVerticaisParalelas',
+      fotos: [
+      { src: cap1_img7 },
+      { src: cap1_img8 },
+      ],
+      legenda: 'cap1_img7 e cap1_img8',
       },
-       {
-        type: 'imagemVertical',
-        src: cap1_img8,
-        legenda: 'cap1_img8',
-      },{
+      {
         type: 'texto',
         content: `Durante a corrida, por exemplo, o Partido de Cima utiliza toras identificadas por pinturas verticais, enquanto o Partido de Baixo utiliza toras marcadas por pinturas horizontais.`,
       },
-    
-       {
+
+      {
         type: 'imagemVertical',
         src: cap1_img9,
         legenda: 'cap1_img9',
@@ -146,64 +145,63 @@ export const longform = [
       {
         type: 'texto',
         content: `Essa divisão não existe para criar rivalidades, mas para organizar os rituais e fortalecer a participação coletiva da comunidade. Os dois grupos são complementares e fazem parte da estrutura social tradicional do povo Krikati.`,
-      },{
+      }, {
         type: 'texto',
         content: `“Não é só uma brincadeira ou competição: ela representa a união, a resistência, as tradições e o respeito à cultura indígena”, afirma a corredora Heidy Caxiicwyj Krikati, que tem 18 anos e começou a correr aos 16.`,
-      },{
+      }, {
         type: 'texto',
         content: `Não existem troféus ou vencedores oficiais. O objetivo principal é fortalecer os laços comunitários e reafirmar a identidade coletiva do povo. A compreensão da Corrida de Tora como um elemento fundamental da identidade indígena também aparece nas pesquisas acadêmicas desenvolvidas sobre os povos Timbira e seus etnoesportes.`,
-      },{
+      }, {
         type: 'texto',
         content: `O psicólogo, professor da Universidade Federal do Maranhão (UFMA), campus de Imperatriz e pesquisador Fábio José Cardias Gomes, define a Corrida de Tora como um exemplo de etnoesporte. Ele argumenta que se trata de uma prática corporal tradicional desenvolvida pelos povos indígenas de acordo com seus próprios sistemas culturais.`,
-      },{
+      }, {
         type: 'texto',
         content: `“Não é uma prática física somente, está cercada de diversas camadas simbólicas corporais e espirituais que não se dissociam nas culturas ancestrais”, esclarece Fábio. Na visão do pesquisador, a corrida reúne elementos relacionados ao corpo, ao território, à memória, à espiritualidade e à identidade coletiva, por isso, funciona como um importante mecanismo de transmissão cultural entre as gerações.`,
-      },{
+      }, {
         type: 'texto',
         content: `O ritual começa ainda na infância. Heidy Krikati lembra que teve seus primeiros contatos com a tradição quando tinha cerca de quatro anos de idade. “A gente corria com um tronco menor, e foi um momento muito importante para mim, porque eu me sentia conectada com os meus ancestrais”, relembra.`,
       },
-/////video aqui
-          {
+      /////video aqui
+      {
         type: 'imagem',
         src: cap1_img10_GIF,
         legenda: 'cap1_img10_GIF',
       },
-      
-        {
-        type: 'imagemVertical',
-        src: cap1_img10,
-        legenda: 'cap1_img10',
-      },
-        {
-        type: 'imagemVertical',
-        src: cap1_img10_A,
-        legenda: 'cap1_img10_A',
-      },
-      
+
+      {
+  type: 'imagensVerticaisParalelas',
+  fotos: [
+    { src: cap1_img10 },
+    { src: cap1_img10_A },
+  ],
+  legenda: 'cap1_img10 e cap1_img10_A',
+},
+   
+
       {
         type: 'texto',
         content: `A essência da Corrida de Tora permanece preservada, os cantos continuam sendo transmitidos, as pinturas corporais estão presentes, os partidos tradicionais continuam organizando a vida social da aldeia e os principais rituais persistem, encontrando na corrida um de seus momentos mais importantes.`,
-      },{
+      }, {
         type: 'texto',
         content: `Algumas mudanças ocorreram também na rotina da aldeia. O atual cacique, Maurício Copacy Krikati, observa que hoje os participantes precisam conciliar as atividades culturais com a escola, o trabalho e outros compromissos do cotidiano. Mesmo assim, ele acredita que a essência da Corrida de Tora permanece preservada.`,
-      },{
+      }, {
         type: 'texto',
         content: `Apesar dos desafios contemporâneos, a Corrida de Tora continua resistindo, porque permanece viva na memória dos mais velhos e na prática cotidiana da comunidade, “Está no nosso sangue, está na nossa vida, esses rituais que nos mantêm, que nos informam, que nos identificam. Sem ritual somos nada, sem cantoria somos nada”, resume Milton.`,
       },
-      
-        {
+
+      {
         type: 'imagemVertical',
         src: cap1_img11,
         legenda: 'cap1_img11',
       },
-      
+
       {
         type: 'texto',
         content: `É essa memória ancestral, preservada pela tradição oral e reafirmada a cada nova geração, que mantém viva a Corrida de Tora como um dos principais símbolos da identidade do povo Krikati. A corrida não pode ser analisada separadamente dos demais conhecimentos culturais da comunidade. “A gente não fala mais de festa, fala de ritual tradicional”, conclui Milton.`,
-      },{
+      }, {
         type: 'texto',
         content: `A diferença pode parecer simples, mas revela muito sobre a maneira como a comunidade compreende a própria tradição. Enquanto para um visitante a Corrida de Tora pode parecer uma celebração cultural, para os Krikati ela está relacionada a conhecimentos herdados dos ancestrais, responsabilidades coletivas e compromissos assumidos com a preservação da cultura e do respeito às tradições.`,
-      },{
+      }, {
         type: 'texto',
         content: `Durante boa parte da vida, Milton participou ativamente das corridas. Hoje, aos 54 anos, já não corre como fazia quando era mais jovem, ainda assim, continua presente em cada ritual. “Sempre na corrida gosto de me pintar, de participar das corridas. Agora eu não participo mais, mas participo orientando e ajudo a organizar a corrida.”`,
       },
@@ -225,7 +223,7 @@ export const longform = [
         content: `Para Milton, essa continuidade é fundamental para a sobrevivência cultural do povo Krikati. A Corrida de Tora continua existindo não apenas porque ainda é realizada, mas porque continua sendo ensinada, lembrada e vivida, é essa transmissão constante de conhecimentos que permite à tradição atravessar o tempo e permanecer como um dos principais símbolos da identidade Krikati.`,
       },
 
-        {
+      {
         type: 'imagemVertical',
         src: cap1_img13,
         legenda: 'cap1_img13',
@@ -233,36 +231,70 @@ export const longform = [
       {
         type: 'texto',
         content: `Entretanto, compreender sua origem não é suficiente para entender toda a sua importância. A corrida está inserida em um complexo conjunto de rituais, símbolos e significados que organizam a vida social da comunidade. Entre eles, se destaca o ritual de encerramento de luto, contexto em que a Corrida de Tora assume um papel central na despedida dos mortos e no fortalecimento dos vivos.`,
-        },
-      
-      
-        /*
+      },
+
+
+      /*
+    {
+      type: 'texto',
+      content: ``,
+    },
+    
       {
-        type: 'texto',
-        content: ``,
-      },
-      
-        {
-        type: 'citacao',
-        content: '',
-        autor: '',
-      },
-     
-      {
-        type: 'imagem',
-        src: img06,
-        legenda: 'Árvore sagrada que sustenta a vida.',
-      },
-       {
-        type: 'video',
-        youtubeId: 'PuXiQYgiQaM',
-        titulo: 'O nhande rekó Guarani — mini-documentário',
-      },
-      */
+      type: 'citacao',
+      content: '',
+      autor: '',
+    },
+   
+    {
+      type: 'imagem',
+      src: img06,
+      legenda: 'Árvore sagrada que sustenta a vida.',
+    },
+     {
+      type: 'video',
+      youtubeId: 'PuXiQYgiQaM',
+      titulo: 'O nhande rekó Guarani — mini-documentário',
+    },
+
+
+
+    {
+type: 'imagensParalelas',
+fotos: [
+  { src: img03 },
+  { src: img05 },
+],
+legenda: 'Legenda única para as duas fotos',
+}
+3 imagens horizontais paralelas:
+
+
+{
+type: 'imagensParalelas',
+fotos: [
+  { src: img01 },
+  { src: img04 },
+  { src: img08 },
+],
+legenda: 'Legenda compartilhada pelas três fotos',
+}
+2 ou 3 imagens verticais paralelas:
+
+
+{
+type: 'imagensVerticaisParalelas',
+fotos: [
+  { src: img02 },
+  { src: img06 },
+],
+legenda: 'Retratos da aldeia',
+}
+    */
     ],
   },
 
-    {
+  {
     id: 2,
     slug: 'capitulo-2',
     titulo: '“A Corrida de Tora representa um movimento ancestral e político”',
@@ -271,7 +303,7 @@ export const longform = [
     capa: img04,
     resumo: 'O ritual e os seus símbolos',
     sections: [
-     {
+      {
         type: 'texto',
         content: `Para compreender a Corrida de Tora entre os Krikati, é necessário entender primeiro aquilo que dá origem ao ritual. Aqui, a corrida acompanhada pela reportagem, entre os dias 22, 23 e 24 de maio, de 2026, foi a de encerramento de luto. Diferente da lógica predominante na sociedade não indígena, em que o funeral costuma representar o encerramento da despedida, entre os Krikati a morte marca apenas o início de um longo processo ritual que pode durar meses e envolver toda a comunidade.`,
       }, {
@@ -337,25 +369,25 @@ export const longform = [
       }, {
         type: 'texto',
         content: `Conhecer os significados do ritual representa apenas uma parte dessa experiência. É durante os dias da corrida que esses símbolos ganham forma por meio das cantorias, das pinturas corporais, das toras carregadas pelos corredores e da participação coletiva da comunidade. E é justamente nesses momentos que a tradição deixa de ser apenas explicada e passa a ser vivida.`,
-      }, 
-       /*
-      {
-        type: 'texto',
-        content: ``,
       },
-      
-        {
-        type: 'citacao',
-        content: '',
-        autor: '',
-      },
+      /*
+     {
+       type: 'texto',
+       content: ``,
+     },
      
-      {
-        type: 'imagem',
-        src: img06,
-        legenda: 'Árvore sagrada que sustenta a vida.',
-      },
-      */
+       {
+       type: 'citacao',
+       content: '',
+       autor: '',
+     },
+    
+     {
+       type: 'imagem',
+       src: img06,
+       legenda: 'Árvore sagrada que sustenta a vida.',
+     },
+     */
     ]
   },
   {
@@ -366,9 +398,9 @@ export const longform = [
     data: 'junho de 2026',
     capa: img07,
     resumo: 'Uma vivência na Corrida de Tora',
-    sections:[
+    sections: [
 
-       {
+      {
         type: 'texto',
         content: `O sol ainda não havia surgido completamente quando a Aldeia São José começou a despertar, era 24 de maio de 2026. Aos poucos, homens, mulheres, crianças, anciãos e visitantes passaram a ocupar o pátio central da aldeia. Alguns conversavam em pequenos grupos, enquanto outros se preparavam para mais uma etapa do ritual de encerramento de luto. Havia um sentimento coletivo de expectativa, já que não se tratava apenas de mais um dia na rotina da comunidade. Era o período de realização da Corrida de Tora, um dos mais importantes rituais do povo Krikati.`,
       }, {
@@ -438,7 +470,7 @@ export const longform = [
       }, {
         type: 'citacao',
         content: `Não é uma competição. Ali para nós, é uma corrida para mostrar resistência dos partidos e prestar essa última homenagem`,
-        autor:'Letícia'
+        autor: 'Letícia'
       }, {
         type: 'texto',
         content: `Por volta das oito horas da manhã, os corredores chegaram à Aldeia São José. As toras foram posicionadas no centro do pátio e a comunidade se reuniu para registrar o momento com fotografias. A corrida havia terminado. Para os Krikati, aquele instante representa muito mais do que a conclusão de um percurso. Com a chegada das toras e a realização dos últimos rituais, se encerra oficialmente o período de luto iniciado meses antes.`,
@@ -454,28 +486,28 @@ export const longform = [
       }, {
         type: 'texto',
         content: `A continuidade dessa tradição depende de um desafio permanente: garantir que os conhecimentos transmitidos pelos mais velhos sejam aprendidos pelas novas gerações. Em um contexto marcado pela presença crescente das tecnologias, da escolarização e das transformações sociais, os Krikati buscam formas de preservar seus saberes sem deixar de dialogar com o mundo contemporâneo.`,
-      }, 
-    /*
-      {
-        type: 'texto',
-        content: ``,
       },
-      
+      /*
         {
-        type: 'citacao',
-        content: '',
-        autor: '',
-      },
-     
-      {
-        type: 'imagem',
-        src: img06,
-        legenda: 'Árvore sagrada que sustenta a vida.',
-      },
-      */
+          type: 'texto',
+          content: ``,
+        },
+        
+          {
+          type: 'citacao',
+          content: '',
+          autor: '',
+        },
+       
+        {
+          type: 'imagem',
+          src: img06,
+          legenda: 'Árvore sagrada que sustenta a vida.',
+        },
+        */
     ],
   },
-    {
+  {
     id: 4,
     slug: 'capitulo-4',
     titulo: '“Às vezes os jovens ficam só ligados no mundo ocidental e esquecem o que está no sangue deles”',
@@ -484,7 +516,7 @@ export const longform = [
     capa: img02,
     resumo: 'As novas tecnologias e as transformações do ritual',
     sections: [
-       {
+      {
         type: 'texto',
         content: `A continuidade da Corrida de Tora depende muito mais do que a realização periódica dos rituais. Ela está diretamente relacionada à capacidade da comunidade de transmitir conhecimentos, formar novos corredores, preservar os cantos tradicionais e manter vivas as práticas herdadas dos antepassados. Em um cenário de constantes transformações sociais e tecnológicas, esse processo passou a enfrentar novos desafios.`,
       }, {
@@ -598,29 +630,29 @@ export const longform = [
       }, {
         type: 'citacao',
         content: `Que a nossa tradição seja lembrada no futuro como uma herança muito importante para o povo Krikati`,
-        autor:`Heidy Krikati, corredora`
+        autor: `Heidy Krikati, corredora`
       }, {
         type: 'texto',
         content: `Mais do que preservar uma prática cultural, os Krikati estimulam uma forma própria de compreender o mundo: a Corrida permanece viva porque continua sendo ensinada, praticada e valorizada pela comunidade. Enquanto houver pessoas dispostas a carregar a tora, entoar os cantos e transmitir os conhecimentos ancestrais, a tradição continuará atravessando gerações, reafirmando a identidade do povo Krikati e mantendo viva uma das mais importantes expressões culturais dos povos Krikati.`,
-      }, 
-       /*
-      {
-        type: 'texto',
-        content: ``,
       },
-      
-        {
-        type: 'citacao',
-        content: '',
-        autor: '',
-      },
+      /*
+     {
+       type: 'texto',
+       content: ``,
+     },
      
-      {
-        type: 'imagem',
-        src: img06,
-        legenda: 'Árvore sagrada que sustenta a vida.',
-      },
-      */
+       {
+       type: 'citacao',
+       content: '',
+       autor: '',
+     },
+    
+     {
+       type: 'imagem',
+       src: img06,
+       legenda: 'Árvore sagrada que sustenta a vida.',
+     },
+     */
     ]
   },
 ]
