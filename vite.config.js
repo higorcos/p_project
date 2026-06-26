@@ -9,7 +9,7 @@ export default defineConfig({
     ViteImageOptimizer({
       jpeg: { quality: 78 },
       jpg:  { quality: 78 },
-      png:  { quality: 80 },
+      png:  { quality: 78 },
     }),
   ],
   assetsInclude: ['**/*.jpeg', '**/*.jpg', '**/*.png', '**/*.webp'],
