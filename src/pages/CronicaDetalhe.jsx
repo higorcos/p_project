@@ -14,11 +14,28 @@ function Section({ section }) {
 
   if (section.type === 'imagem') {
     return (
-      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-32">
+      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
         <img
           src={section.src}
           alt={section.legenda || ''}
           className="w-full max-h-[600px] object-cover"
+        />
+        {section.legenda && (
+          <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
+            {section.legenda}
+          </figcaption>
+        )}
+      </figure>
+    )
+  }
+
+  if (section.type === 'imagemVertical') {
+    return (
+      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
+        <img
+          src={section.src}
+          alt={section.legenda || ''}
+          className=" max-h-[600px] object-cover mx-auto"
         />
         {section.legenda && (
           <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
@@ -104,7 +121,7 @@ export default function CronicaDetalhe() {
 
       {/* Conteúdo longform */}
       <article className="bg-terra-700 py-16">
-        <div className="max-w-3xl mx-auto px-6">
+        <div className="max-w-4xl mx-auto px-6">
           {/* Resumo em destaque */}
           <p className="font-serif text-xl md:text-2xl text-terra-200 leading-relaxed border-l-4 border-urucum pl-6 mb-12 italic">
             {cronica.resumo}

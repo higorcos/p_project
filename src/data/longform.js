@@ -7,6 +7,24 @@ import img06 from '../../img/img06.jpeg'
 import img07 from '../../img/img07.jpeg'
 import img08 from '../../img/img08.jpeg'
 
+import cap1_img1 from '../../img/cap1/1.png'
+import cap1_img2 from '../../img/cap1/2.png'
+import cap1_img3 from '../../img/cap1/3.png'
+import cap1_img4 from '../../img/cap1/4.png'
+import cap1_img5 from '../../img/cap1/5.png'
+import cap1_img6 from '../../img/cap1/6.png'
+import cap1_img7 from '../../img/cap1/7.png'
+import cap1_img8 from '../../img/cap1/8.png'
+import cap1_img9 from '../../img/cap1/9.png'
+import cap1_img10 from '../../img/cap1/10.png'
+import cap1_img10_GIF from '../../img/cap1/10_gif.gif'
+import cap1_img10_A from '../../img/cap1/10_A.jpeg'
+import cap1_img11 from '../../img/cap1/11.png'
+import cap1_img12 from '../../img/cap1/12.png'
+import cap1_img13 from '../../img/cap1/13.png'
+
+
+
 export const longform = [
   {
     id: 1,
@@ -23,7 +41,18 @@ export const longform = [
       },{
         type: 'texto',
         content: `Os Krikati pertencem ao conjunto dos povos Timbira, grupo indígena que habita diferentes regiões do Maranhão e do Tocantins. Apesar das particularidades de cada comunidade, diversas práticas culturais são compartilhadas, entre elas a Corrida de Tora, considerada uma das expressões mais importantes dessa tradição.`,
-      },{
+      },
+       {
+        type: 'imagem',
+        src: cap1_img1,
+        legenda: 'cap1_img1',
+      },   
+        {
+        type: 'imagem',
+        src: cap1_img2,
+        legenda: 'cap1_img2',
+      },     
+      {
         type: 'texto',
         content: `Como se confirma no e-book Cultura viva timbira: nossas corridas de tora elaborado por Maria Elisa Ladeira e Daniela Leme da Fonseca, a prática está presente há muitas gerações e aparece associada a diferentes rituais, momentos de celebração coletiva e processos de formação social nos contextos das comunidades indígenas.`,
       },{
@@ -39,13 +68,26 @@ export const longform = [
         type: 'citacao',
         content: `A gente se identifica como corrida, então Corrida de Tora é a nossa origem, a nossa identidade que os mais velhos deixaram para nós`,
         autor: 'Ancião Milton Carvalho Bandeira Krikati',
-      },{
+      },
+      {
+        type: 'imagemVertical',
+        src: cap1_img3,
+        legenda: 'cap1_img3',
+      },
+      
+      {
         type: 'texto',
         content: `A corrida ultrapassa a dimensão de uma simples prática cultural, ela representa uma herança ancestral recebida dos antepassados e preservada ao longo das gerações. Para Milton, a tradição está diretamente ligada à forma como os Krikati se reconhecem enquanto povo.`,
       },{
         type: 'texto',
         content: `Ao recordar o que ouviu dos antigos e o que viveu desde a infância, Milton explica que a corrida fazia parte do cotidiano da aldeia e estava profundamente ligada aos rituais tradicionais. Os conhecimentos eram transmitidos oralmente, durante as cantorias, nas reuniões comunitárias e na convivência entre gerações.`,
-      },{
+      },
+        {
+        type: 'imagemVertical',
+        src: cap1_img4,
+        legenda: 'cap1_img4',
+      },
+      {
         type: 'texto',
         content: `Segundo suas lembranças, as crianças eram inseridas muito cedo nesse universo. Os mais velhos preparavam pequenas toras para que aprendessem a correr e compreendessem, desde os seus primeiros anos de idade, o significado da tradição.`,
       },{
@@ -54,23 +96,54 @@ export const longform = [
       },{
         type: 'texto',
         content: `A memória oral também revela que a corrida nunca foi entendida apenas como uma atividade física, sendo mais associada à formação das pessoas, ao fortalecimento dos vínculos comunitários e à transmissão dos valores culturais do povo Krikati.`,
-      },{
+      },
+         {
+        type: 'imagemVertical',
+        src: cap1_img5,
+        legenda: 'cap1_img5',
+      },
+      {
         type: 'texto',
         content: `Essa visão aparece igualmente na fala de Wagner Crowahreh Krikati, antigo cacique da Aldeia São José e uma das lideranças que acompanharam os rituais tradicionais ao longo de anos. Para ele, cada corrida carrega a memória dos ancestrais e reforça o pertencimento dos participantes à sua cultura. “Manter essa tradição viva é através da prática, da oralidade, da cantoria, da dança e da pintura corporal”, pontua.`,
       },{
         type: 'texto',
         content: `O antigo líder destaca que a cultura indígena não se resume apenas aos rituais visíveis durante a corrida, mas está presente em diferentes aspectos da vida cotidiana da comunidade. Segundo Wagner, os corredores carregam, além de uma tora de madeira, histórias, ensinamentos e responsabilidades herdadas das gerações anteriores.`,
-      },{
+      },
+         {
+        type: 'imagemVertical',
+        src: cap1_img6,
+        legenda: 'cap1_img6',
+      },
+      { 
         type: 'texto',
-        content: `A própria organização da corrida expressa essa herança ancestral.
-Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como Partido de Cima e Partido de Baixo. Essa divisão pode ser comparada aos sobrenomes de famílias entre os não indígenas, pois ajuda a identificar a qual grupo cada pessoa pertence dentro da sociedade tradicional. Esses partidos organizam a participação dos indivíduos em diversos rituais, incluindo a Corrida de Tora.`,
-      },{
+        content: `A própria organização da corrida expressa essa herança ancestral. Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como Partido de Cima e Partido de Baixo. Essa divisão pode ser comparada aos sobrenomes de famílias entre os não indígenas, pois ajuda a identificar a qual grupo cada pessoa pertence dentro da sociedade tradicional. Esses partidos organizam a participação dos indivíduos em diversos rituais, incluindo a Corrida de Tora.`,
+      },
+      
+      {
         type: 'texto',
         content: `Cada pessoa pertence a um desses dois partidos de acordo com regras culturais relacionadas ao nome tradicional que recebe dos pais. Esse nome define diversas responsabilidades e formas de participação na vida da aldeia. A divisão influencia aspectos como a participação nos rituais, a organização das corridas, as pinturas corporais, os tipos de passagem, as cantorias, as cerimônias e a formação das equipes durante a Corrida de Tora.`,
+      },
+      
+       {
+        type: 'imagemVertical',
+        src: cap1_img7,
+        legenda: 'cap1_img7',
+      },
+       {
+        type: 'imagemVertical',
+        src: cap1_img8,
+        legenda: 'cap1_img8',
       },{
         type: 'texto',
         content: `Durante a corrida, por exemplo, o Partido de Cima utiliza toras identificadas por pinturas verticais, enquanto o Partido de Baixo utiliza toras marcadas por pinturas horizontais.`,
-      },{
+      },
+    
+       {
+        type: 'imagemVertical',
+        src: cap1_img9,
+        legenda: 'cap1_img9',
+      },
+      {
         type: 'texto',
         content: `Essa divisão não existe para criar rivalidades, mas para organizar os rituais e fortalecer a participação coletiva da comunidade. Os dois grupos são complementares e fazem parte da estrutura social tradicional do povo Krikati.`,
       },{
@@ -88,7 +161,26 @@ Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como
       },{
         type: 'texto',
         content: `O ritual começa ainda na infância. Heidy Krikati lembra que teve seus primeiros contatos com a tradição quando tinha cerca de quatro anos de idade. “A gente corria com um tronco menor, e foi um momento muito importante para mim, porque eu me sentia conectada com os meus ancestrais”, relembra.`,
-      },{
+      },
+/////video aqui
+          {
+        type: 'imagem',
+        src: cap1_img10_GIF,
+        legenda: 'cap1_img10_GIF',
+      },
+      
+        {
+        type: 'imagemVertical',
+        src: cap1_img10,
+        legenda: 'cap1_img10',
+      },
+        {
+        type: 'imagemVertical',
+        src: cap1_img10_A,
+        legenda: 'cap1_img10_A',
+      },
+      
+      {
         type: 'texto',
         content: `A essência da Corrida de Tora permanece preservada, os cantos continuam sendo transmitidos, as pinturas corporais estão presentes, os partidos tradicionais continuam organizando a vida social da aldeia e os principais rituais persistem, encontrando na corrida um de seus momentos mais importantes.`,
       },{
@@ -97,7 +189,15 @@ Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como
       },{
         type: 'texto',
         content: `Apesar dos desafios contemporâneos, a Corrida de Tora continua resistindo, porque permanece viva na memória dos mais velhos e na prática cotidiana da comunidade, “Está no nosso sangue, está na nossa vida, esses rituais que nos mantêm, que nos informam, que nos identificam. Sem ritual somos nada, sem cantoria somos nada”, resume Milton.`,
-      },{
+      },
+      
+        {
+        type: 'imagemVertical',
+        src: cap1_img11,
+        legenda: 'cap1_img11',
+      },
+      
+      {
         type: 'texto',
         content: `É essa memória ancestral, preservada pela tradição oral e reafirmada a cada nova geração, que mantém viva a Corrida de Tora como um dos principais símbolos da identidade do povo Krikati. A corrida não pode ser analisada separadamente dos demais conhecimentos culturais da comunidade. “A gente não fala mais de festa, fala de ritual tradicional”, conclui Milton.`,
       },{
@@ -106,6 +206,11 @@ Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como
       },{
         type: 'texto',
         content: `Durante boa parte da vida, Milton participou ativamente das corridas. Hoje, aos 54 anos, já não corre como fazia quando era mais jovem, ainda assim, continua presente em cada ritual. “Sempre na corrida gosto de me pintar, de participar das corridas. Agora eu não participo mais, mas participo orientando e ajudo a organizar a corrida.”`,
+      },
+      {
+        type: 'imagemVertical',
+        src: cap1_img12,
+        legenda: 'cap1_img12',
       },
       {
         type: 'texto',
@@ -118,6 +223,12 @@ Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como
       {
         type: 'texto',
         content: `Para Milton, essa continuidade é fundamental para a sobrevivência cultural do povo Krikati. A Corrida de Tora continua existindo não apenas porque ainda é realizada, mas porque continua sendo ensinada, lembrada e vivida, é essa transmissão constante de conhecimentos que permite à tradição atravessar o tempo e permanecer como um dos principais símbolos da identidade Krikati.`,
+      },
+
+        {
+        type: 'imagemVertical',
+        src: cap1_img13,
+        legenda: 'cap1_img13',
       },
       {
         type: 'texto',
@@ -141,6 +252,11 @@ Na comunidade Krikati, o povo é dividido em dois grandes clãs, conhecidos como
         type: 'imagem',
         src: img06,
         legenda: 'Árvore sagrada que sustenta a vida.',
+      },
+       {
+        type: 'video',
+        youtubeId: 'PuXiQYgiQaM',
+        titulo: 'O nhande rekó Guarani — mini-documentário',
       },
       */
     ],
