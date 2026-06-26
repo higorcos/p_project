@@ -171,11 +171,11 @@ export const longform = [
         content: `O ritual começa ainda na infância. Heidy Krikati lembra que teve seus primeiros contatos com a tradição quando tinha cerca de quatro anos de idade. “A gente corria com um tronco menor, e foi um momento muito importante para mim, porque eu me sentia conectada com os meus ancestrais”, relembra.`,
       },
       /////video aqui
-      {
+     /* {
         type: 'imagem',
         src: cap1_img10_GIF,
         legenda: 'cap1_img10_GIF',
-      },
+      },*/
 
       {
   type: 'imagensVerticaisParalelas',
