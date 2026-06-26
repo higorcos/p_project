@@ -19,6 +19,8 @@ function Section({ section }) {
           src={section.src}
           alt={section.legenda || ''}
           className="max-h-[480px] w-auto mx-auto block object-cover"
+          loading="lazy"
+          decoding="async"
         />
         {section.legenda && (
           <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
@@ -36,6 +38,8 @@ function Section({ section }) {
           src={section.src}
           alt={section.legenda || ''}
           className="max-h-[480px] w-auto mx-auto block"
+          loading="lazy"
+          decoding="async"
         />
         {section.legenda && (
           <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
@@ -57,6 +61,8 @@ function Section({ section }) {
                 src={foto.src}
                 alt={section.legenda || ''}
                 className="w-full max-h-[270px] object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           ))}
@@ -80,6 +86,8 @@ function Section({ section }) {
               src={foto.src}
               alt={section.legenda || ''}
               className="max-h-[360px] w-auto mx-auto sm:mx-0"
+              loading="lazy"
+              decoding="async"
             />
           ))}
         </div>

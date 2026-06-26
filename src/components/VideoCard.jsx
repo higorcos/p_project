@@ -12,6 +12,8 @@ export default function VideoCard({ video, onClick }) {
           src={thumb}
           alt={video.titulo}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
+          decoding="async"
           onError={e => { e.target.style.display = 'none' }}
         />
         {/* Overlay play */}

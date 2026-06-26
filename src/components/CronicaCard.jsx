@@ -9,6 +9,8 @@ export default function CronicaCard({ cronica, featured = false }) {
           src={cronica.capa}
           alt={cronica.titulo}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          loading="lazy"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-terra-900/80 via-transparent to-transparent" />
         <span className="absolute top-4 left-4 bg-urucum text-white text-xs px-3 py-1 uppercase tracking-widest font-sans">

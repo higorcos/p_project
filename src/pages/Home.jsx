@@ -43,6 +43,8 @@ export default function Home() {
           src={treeImg}
           alt="Povo Krikati"
           className="absolute inset-0 w-full h-full object-cover"
+          fetchpriority="high"
+          loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-terra-900 via-terra-900/60 to-terra-900/20" />
 
@@ -138,6 +140,8 @@ export default function Home() {
                   src={img.src}
                   alt={img.alt}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             ))}

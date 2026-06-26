@@ -40,6 +40,7 @@ export default function Galeria() {
                   alt={img.alt}
                   className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
+                  decoding="async"
                 />
                 {/* Overlay com legenda */}
                 <div className="absolute inset-0 bg-terra-900/0 group-hover:bg-terra-900/60 transition-colors flex items-end">

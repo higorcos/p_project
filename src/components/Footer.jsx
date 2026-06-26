@@ -40,7 +40,7 @@ export default function Footer() {
           <div>
             <p className="section-label mb-4">Sobre o LongForm</p>
             <p className="font-serif text-terra-300 text-sm leading-relaxed">
-              Trabalho de sobre a corrida de Tora do povo Krikati, produzido a partir da escuta, observação e registro de suas memórias e tradições da comunidade.
+              Trabalho sobre a corrida de Tora do povo Krikati, produzido a partir da escuta, observação e registro de suas memórias e tradições da comunidade.
             </p>
           </div>
         </div>
