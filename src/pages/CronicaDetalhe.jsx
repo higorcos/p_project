@@ -197,7 +197,7 @@ export default function CronicaDetalhe() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
               </svg>
-              Todas os longform
+              Todos os longform
             </Link>
           </div>
         </div>
