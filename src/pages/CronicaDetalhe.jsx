@@ -2,6 +2,28 @@ import { useParams, Link } from 'react-router-dom'
 import { longform } from '../data/longform'
 import VideoEmbed from '../components/VideoEmbed'
 
+const IMAGE_TYPES = ['imagem', 'imagemVertical', 'imagensVerticaisParalelas', 'imagensParalelas']
+
+function groupSections(sections) {
+  const result = []
+  let i = 0
+  while (i < sections.length) {
+    const curr = sections[i]
+    const next = sections[i + 1]
+    if (IMAGE_TYPES.includes(curr.type) && next?.type === 'videoShot') {
+      result.push({ type: 'imagemComShot', image: curr, shot: next })
+      i += 2
+    } else if (curr.type === 'videoShot' && next && IMAGE_TYPES.includes(next.type)) {
+      result.push({ type: 'imagemComShot', image: next, shot: curr })
+      i += 2
+    } else {
+      result.push(curr)
+      i++
+    }
+  }
+  return result
+}
+
 function Section({ section }) {
   if (section.type === 'texto') {
     return (
@@ -132,8 +154,59 @@ function Section({ section }) {
         {section.titulo && (
           <p className="section-label mb-3 text-center">{section.titulo}</p>
         )}
-        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} shot  className="max-w-[67.8%] mx-auto"/>
+        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} shot className="max-w-[67.8%] mx-auto" />
       </div>
+    )
+  }
+
+  if (section.type === 'imagemComShot') {
+    const { image, shot } = section
+    const nFotos = image.fotos?.length ?? 1
+    // Altura adaptada: 3 fotos fica mais compacto para caber sem overflow
+    const imgH = nFotos >= 3 ? 'max-h-[260px]' : nFotos === 2 ? 'max-h-[360px]' : 'max-h-[420px]'
+    const imgW = nFotos >= 3 ? 'max-w-[180px]' : ''
+
+    const imageContent = () => {
+      if (image.type === 'imagem') return (
+        <img src={image.src} alt={image.legenda || ''} className={`${imgH} w-auto block`} loading="lazy" decoding="async" />
+      )
+      if (image.type === 'imagemVertical') return (
+        <img src={image.src} alt={image.legenda || ''} className={`${imgH} w-auto block`} loading="lazy" decoding="async" />
+      )
+      if (image.type === 'imagensVerticaisParalelas') return (
+        <div className="flex flex-row items-start gap-2">
+          {image.fotos.map((foto, i) => (
+            <img key={i} src={foto.src} alt={image.legenda || ''} className={`${imgH} ${imgW} w-auto`} loading="lazy" decoding="async" />
+          ))}
+        </div>
+      )
+      if (image.type === 'imagensParalelas') {
+        const cols = nFotos === 3 ? 'grid-cols-3' : 'grid-cols-2'
+        return (
+          <div className={`grid ${cols} gap-2`}>
+            {image.fotos.map((foto, i) => (
+              <img key={i} src={foto.src} alt={image.legenda || ''} className="w-full max-h-[200px] object-cover" loading="lazy" decoding="async" />
+            ))}
+          </div>
+        )
+      }
+      return null
+    }
+
+    return (
+      <figure className="my-12 -mx-6">
+        <div className="flex flex-col sm:flex-row gap-6 items-center justify-center flex-wrap">
+          <div className="flex-none">{imageContent()}</div>
+          <div className="flex-none">
+            <VideoEmbed youtubeId={shot.youtubeId} titulo={shot.titulo} shot />
+          </div>
+        </div>
+        {image.legenda && (
+          <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
+            {image.legenda}
+          </figcaption>
+        )}
+      </figure>
     )
   }
 
@@ -187,7 +260,7 @@ export default function CronicaDetalhe() {
           </p>
 
           {/* Sections */}
-          {cronica.sections.map((section, i) => (
+          {groupSections(cronica.sections).map((section, i) => (
             <Section key={i} section={section} />
           ))}
 
