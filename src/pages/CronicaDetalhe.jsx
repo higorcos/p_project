@@ -121,7 +121,7 @@ function Section({ section }) {
         {section.titulo && (
           <p className="section-label mb-3">{section.titulo}</p>
         )}
-        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} className="max-w-[80%] mx-auto" />
+        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} className="max-w-[67.8%] mx-auto" />
       </div>
     )
   }
@@ -132,7 +132,7 @@ function Section({ section }) {
         {section.titulo && (
           <p className="section-label mb-3 text-center">{section.titulo}</p>
         )}
-        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} shot />
+        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} shot  className="max-w-[67.8%] mx-auto"/>
       </div>
     )
   }

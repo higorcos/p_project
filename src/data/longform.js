@@ -225,7 +225,7 @@ export const longform = [
       {
          type: 'video',
          titulo: '',
-         youtubeId: 'k8gxV-USy2Q' 
+         youtubeId: 'zD_-MxXTldw' 
        },
 
       {
@@ -434,7 +434,7 @@ legenda: 'Retratos da aldeia',
      {
          type: 'videoShot',
          titulo: '',
-         youtubeId: 'd_5shO4EhDA' 
+         youtubeId: '_Ow2XsT1TJ4' 
        },
       
 
@@ -455,7 +455,7 @@ legenda: 'Retratos da aldeia',
      {
          type: 'videoShot',
          titulo: '',
-         youtubeId: 'NPq6gaqRv90' 
+         youtubeId: '-Kldrp0ZBL8' 
        },
       
 
@@ -473,7 +473,7 @@ legenda: 'Retratos da aldeia',
          {
          type: 'videoShot',
          titulo: '',
-         youtubeId: '_9ENXrWQ-rk' 
+         youtubeId: 'NcFfV-XXsSk' 
        },
       
       
@@ -619,7 +619,7 @@ legenda: 'Retratos da aldeia',
         {
          type: 'videoShot',
          titulo: '',
-         youtubeId: '7jBrAzn2VhY' 
+         youtubeId: '0nG_Dv3rw8w' 
        },  
 
 
@@ -697,7 +697,7 @@ legenda: 'Retratos da aldeia',
           {
          type: 'videoShot',
          titulo: '',
-         youtubeId: 'jXd4cpkmCDI' 
+         youtubeId: 'DaDjX1F4wIU' 
        }, 
       
        {
@@ -720,7 +720,7 @@ legenda: 'Retratos da aldeia',
           {
          type: 'videoShot',
          titulo: '',
-         youtubeId: 'rUKIFcRLkno' 
+         youtubeId: 'tPHD8sWxY8g' 
        },
       
       
@@ -737,7 +737,7 @@ legenda: 'Retratos da aldeia',
       {
          type: 'videoShot',
          titulo: '',
-         youtubeId: 'dNIcULN5DDw' 
+         youtubeId: '1nCImlVY2N0' 
        },
       
       {
@@ -932,7 +932,7 @@ legenda: 'Retratos da aldeia',
        {
          type: 'videoShot',
          titulo: '',
-         youtubeId: '0LbFoLh-p34' 
+         youtubeId: 'mDXtGLgOCag' 
        },
        
       {
