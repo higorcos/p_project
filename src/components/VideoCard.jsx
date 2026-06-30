@@ -10,7 +10,7 @@ export default function VideoCard({ video, onClick }) {
       <div className="relative overflow-hidden aspect-video bg-terra-900">
         <img
           src={thumb}
-          alt={video.titulo}
+          alt={video.descricao}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
           decoding="async"
@@ -24,20 +24,12 @@ export default function VideoCard({ video, onClick }) {
             </svg>
           </div>
         </div>
-        {/* Duração */}
-        {video.duracao && (
-          <span className="absolute bottom-2 right-2 bg-terra-900/80 text-terra-50 text-xs px-2 py-0.5 font-sans">
-            {video.duracao}
-          </span>
-        )}
+        
+       
       </div>
 
       {/* Info */}
       <div className="p-4">
-        <p className="text-urucum text-xs uppercase tracking-widest font-sans mb-1">{video.data}</p>
-        <h3 className="font-display text-lg text-terra-50 leading-snug mb-2 group-hover:text-terra-100 transition-colors">
-          {video.titulo}
-        </h3>
         <p className="text-terra-300 text-sm font-sans leading-relaxed line-clamp-2">
           {video.descricao}
         </p>

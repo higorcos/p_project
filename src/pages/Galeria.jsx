@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { galeria } from '../data/galeria'
 import Lightbox from '../components/Lightbox'
+import Videos from './Videos'
 
 function splitCols(items, n) {
   const cols = Array.from({ length: n }, () => [])
@@ -53,10 +54,13 @@ export default function Galeria() {
       <div className="page-hero">
         <div className="absolute inset-0 indigenous-pattern opacity-30" />
         <div className="max-w-6xl mx-auto px-6 relative">
-          <span className="section-label">Fotografias</span>
+          <span className="section-label">Fotografias e Vídeos</span>
           <h1 className="section-title text-4xl md:text-5xl">Galeria</h1>
         </div>
       </div>
+
+    
+        <Videos></Videos>
 
       {/* Masonry Grid */}
       <section className="py-16 bg-terra-700">
@@ -95,6 +99,9 @@ export default function Galeria() {
           onNext={next}
         />
       )}
+
+
+    
     </>
   )
 }
