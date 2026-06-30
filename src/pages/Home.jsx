@@ -112,7 +112,7 @@ export default function Home() {
           <div className="text-center mb-10">
             <span className="section-label">LongForm</span>
           </div>
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {longform.map(c => (
               <CronicaCard key={c.id} cronica={c} />
             ))}
@@ -127,7 +127,7 @@ export default function Home() {
             <h3 className="section-label">Fotografias</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-            {galeria.slice(0, 4).map(img => (
+            {galeria.slice(19, 23).map(img => (
               <div key={img.id} className="aspect-square overflow-hidden bg-terra-900">
                 <img
                   src={img.src}
