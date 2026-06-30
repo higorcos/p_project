@@ -12,7 +12,7 @@ import img11 from '../../img/galeria/img11.jpeg'
 
 const legendas = {
   'gal_001': 'gal_001ll',
-  'gal_002': 'gal_002',
+  'gal_002': 'gal_002xxx',
   'gal_003': 'gal_003',
   'gal_004': 'gal_004',
   'gal_005': 'gal_005',
@@ -115,6 +115,7 @@ const legendas = {
   'gal_102': 'gal_102',
   'gal_103': 'gal_103',
   'gal_104': 'gal_104',
+  'gal_104a': 'gal_104a',
   'gal_105': 'gal_105',
   'gal_106': 'gal_106',
   'gal_107': 'gal_107',
@@ -163,6 +164,7 @@ const legendas = {
   'gal_150': 'gal_150',
   'gal_151': 'gal_151',
   'gal_152': 'gal_152',
+  'gal_152a': 'gal_152a lsihbahsdcbasdhbc',
   'gal_153': 'gal_153',
   'gal_154': 'gal_154',
   'gal_155': 'gal_155',
