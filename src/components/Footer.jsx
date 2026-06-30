@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-terra-900 border-t border-terra-600">
       <div className="h-1 geo-line" />
 
-      <div className="max-w-6xl mx-auto px-6 py-14">
+      <div className="max-w-6xl mx-auto px-6 py-10 pb-2">
 
         {/* Bloco principal */}
         <div className="grid md:grid-cols-2 gap-12 mb-12">
@@ -17,12 +17,13 @@ export default function Footer() {
               
             </div>
 
-            <p className="font-serif text-terra-200 text-sm leading-relaxed mb-4">
-              Um registro sobre memória, identidade e resistência cultural.
-            </p>
+        
 
             <p className="font-serif text-terra-400 text-sm leading-relaxed mb-6">
               Trabalho sobre a Corrida de Tora do povo Krikati da Aldeia São José, em Montes Altos (MA), produzido a partir da escuta, observação e registro de suas memórias, identidade, tradições e resistência cultural entre passado, presente e futuro.
+            </p>
+            <p className="font-serif text-terra-400 text-sm leading-relaxed mb-6">
+             Este trabalho foi elaborado como parte da conclusão do curso de Jornalismo do Centro de Ciências de Imperatriz (CCIM), sob orientação do Prof. Dr. Alexandre Zarate Maciel.
             </p>
 
             <div className="space-y-1">
@@ -51,7 +52,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <p className="text-terra-500 text-xs uppercase tracking-widest font-sans">Fotografia e vídeos</p>
-                  <p className="text-terra-200 text-sm font-serif">Paulo Ferraz</p>
+                  <p className="text-terra-200 text-sm font-serif">Paulo Rayan Nascimento Ferraz</p>
                   <p className="text-terra-200 text-sm font-serif">Arquivo pessoal do povo Krikati</p>
                 </li>
               </ul>
@@ -65,18 +66,10 @@ export default function Footer() {
         </div>
 
         {/* Nota final + navegação */}
-        <div className="border-t border-terra-700 pt-8 grid md:grid-cols-2 gap-6 items-start">
+        <div className="border-t border-terra-700 pt-1 text-center">
           <p className="font-serif text-terra-500 text-xs leading-relaxed">
-            Este trabalho foi elaborado como parte da conclusão do curso de Jornalismo do Centro de Ciências de Imperatriz (CCIM), sob orientação do Prof. Dr. Alexandre Zarate Maciel.
+            © {new Date().getFullYear()} Paulo Ferraz. Todos os direitos reservados. Desenvolvido por Higor Costa.
           </p>
-
-          <div className="flex gap-6 md:justify-end flex-wrap">
-            {[['/', 'Início'], ['/longform', 'Longform'], ['/galeria', 'Galeria']].map(([to, label]) => (
-              <Link key={to} to={to} className="text-terra-400 hover:text-terra-50 text-xs font-sans tracking-widest uppercase transition-colors">
-                {label}
-              </Link>
-            ))}
-          </div>
         </div>
 
       </div>
