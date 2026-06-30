@@ -13,11 +13,8 @@ export default function Footer() {
           {/* Coluna esquerda: identidade + descrição */}
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <span className="w-1.5 h-12 bg-urucum block flex-shrink-0" />
-              <div>
-                <p className="font-display text-2xl text-terra-50 leading-tight">Corrida de tora</p>
-                <p className="text-terra-400 text-xs tracking-widest uppercase mt-0.5">Passado, presente e futuro</p>
-              </div>
+              <p className="section-label mb-3">Expediente</p>
+              
             </div>
 
             <p className="font-serif text-terra-200 text-sm leading-relaxed mb-4">
