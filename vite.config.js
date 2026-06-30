@@ -6,12 +6,20 @@ export default defineConfig({
   base: '/p_project/',
   plugins: [
     react(),
+    /*
     ViteImageOptimizer({
       jpeg: { quality: 78 },
       jpg:  { quality: 78 },
       png:  { quality: 78 },
       webp: { quality: 78, method: 6 },
-    }),
+    }),*/
+
+    ViteImageOptimizer({
+  jpeg: { quality: 65 }, // 65 é excelente para fotos de fundo e paisagens
+  jpg:  { quality: 65 },
+  png:  { quality: 75 }, // PNGs geralmente guardam prints ou logos; evite baixar de 70/75 para não borrar textos
+  webp: { quality: 65, method: 6 }, // WebP é muito eficiente, 65 mantém ótima fidelidade
+})
   ],
  
   build: {
