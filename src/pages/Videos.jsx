@@ -38,7 +38,7 @@ export default function Videos() {
       </div>
 */}
       {/* Grid */}
-      <section className="py-16 bg-terra-700">
+      <section className="py-6 bg-terra-700">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {videos.map(v => (
