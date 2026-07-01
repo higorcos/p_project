@@ -124,7 +124,7 @@ export default function Home() {
       <section className="py-20 bg-terra-600">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-10">
-            <h3 className="section-label">Fotografias</h3>
+            <h3 className="section-label">Fotografias e Vídeos</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {galeria.slice(19, 23).map(img => (

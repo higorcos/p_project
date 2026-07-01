@@ -434,7 +434,9 @@ legenda: 'Retratos da aldeia',
      {
          type: 'videoShot',
          titulo: '',
-         youtubeId: '_Ow2XsT1TJ4' 
+         youtubeId: '_Ow2XsT1TJ4' ,
+        legenda: 'Corredores seguem pela mata para buscar e preparar as toras de buriti utilizadas no treinamento. Em seguida, retornam correndo pelo mesmo caminho com as toras sobre os ombros. (Vídeo: Paulo Ferraz)',
+
        },
       
 
@@ -891,7 +893,7 @@ legenda: 'Retratos da aldeia',
         autor: ', relata.',
       }, {
         type: 'texto',
-        content: `Sua fala não representa uma visão pessimista sobre o futuro, mas um alerta sobre a necessidade de fortalecer os mecanismos de transmissão cultural no contexto da aldeia. Entre os Krikati, o conhecimento não é aprendido apenas em salas de aula ou por meio de livros, ele é transmitido principalmente pela convivência diária. As crianças e jovens aprendem observando os mais velhos, participando dos rituais, ouvindo os cantos e acompanhando as atividades coletivas da comunidade. Quando esse processo enfraquece, parte da memória coletiva corre o risco de desaparecer.`,
+        content: `Sua fala não representa uma visão pessimista sobre o futuro, mas um alerta para a necessidade de fortalecer os mecanismos de transmissão cultural no contexto da aldeia. Entre os Krikati, o conhecimento não é aprendido apenas em salas de aula ou por meio de livros; ele é transmitido, principalmente, pela convivência diária. As crianças e os jovens aprendem observando os mais velhos, participando dos rituais, ouvindo os cantos e acompanhando as atividades coletivas da comunidade. Quando esse processo enfraquece, parte da memória coletiva corre o risco de desaparecer.`,
       }, 
       
        {
@@ -903,13 +905,10 @@ legenda: 'Retratos da aldeia',
       
       {
         type: 'texto',
-        content: `Essa preocupação também aparece quando se observa a trajetória de alguns rituais tradicionais. Nem todas as práticas conseguiram atravessar o tempo da mesma forma. Milton relatou que determinadas cerimônias deixaram de ser realizadas ao longo dos anos, um dos exemplos é o ritual conhecido como Cyyjexut.`,
+        content: ``,
       }, {
         type: 'texto',
-        content: `“Esse ritual a gente não pratica mais. Para acontecer esse ritual precisa ter uma pessoa com esse nome específico e também quem organiza e executa, não está mais no nosso meio”, explica. O desaparecimento de determinados rituais mostra como a preservação cultural depende diretamente da transmissão dos conhecimentos entre gerações. quando uma prática deixa de ser realizada por muito tempo. Ou, quando os responsáveis por ensiná-la, desaparecem sem sucessores preparados, sua continuidade torna cada vez mais difícil.`,
-      }, {
-        type: 'texto',
-        content: `Ao mesmo tempo, a própria existência da Corrida de Tora demonstra a capacidade de resistência da cultura Krikati. Mesmo diante das mudanças, a corrida continua sendo realizada, os cantos permanecem vivos, os partidos tradicionais seguem organizando parte da vida social da aldeia e o ritual de encerramento ainda ocupa um lugar central na vida da comunidade.`,
+        content: `Quando uma prática deixa de ser realizada por muito tempo, ou quando os responsáveis por ensiná-la desaparecem sem deixar sucessores preparados, sua continuidade torna-se cada vez mais difícil. Ao mesmo tempo, a própria existência da Corrida de Tora demonstra a capacidade de resistência da cultura Krikati. Mesmo diante das mudanças, a corrida continua sendo realizada, os cantos permanecem vivos, os partidos tradicionais seguem organizando parte da vida social da aldeia, e o ritual de encerramento ainda ocupa um lugar central na vida da comunidade.`,
       }, {
         type: 'texto',
         content: `A permanência dessa tradição depende, em grande parte, da formação das novas gerações. Por isso, uma das questões mais importantes para os Krikati é a preparação dos futuros corredores. Segundo Milton, tornar-se corredor exige muito mais do que força física, trata-se de um processo de formação que começa ainda na infância e envolve disciplina, dedicação e respeito aos ensinamentos tradicionais.`,

@@ -359,12 +359,21 @@ const legendas = {
 'gal_193': 'Parada de ônibus dos Krikati às margens da MA-280. (Foto: Paulo Ferraz).',
 
 'gal_195': '(Foto: Paulo Ferraz).',
+
 }
+
+const ocultar = new Set([
+  // Adicione aqui os nomes das fotos que não devem aparecer na galeria.
+  // Exemplo: 'gal_003', 'gal_007',
+  'gal_194',
+  'gal_009', 'gal_060', 'gal_061', 'gal_190', 'gal_194' 
+])
 
 const galModules = import.meta.glob('../../img/galeria/gal_*.webp', { eager: true })
 
 const galImages = Object.entries(galModules)
   .sort(([a], [b]) => a.localeCompare(b))
+  .filter(([path]) => !ocultar.has(path.match(/gal_\d+/)[0]))
   .map(([path, mod], i) => {
     const key = path.match(/gal_\d+/)[0]
     return { id: i + 12, src: mod.default, legenda: legendas[key] ?? key }
